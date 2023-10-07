@@ -87,7 +87,7 @@ I initially thought this wasn't gonna do much, but I was wrong.
 
 Changing my code to this:
 
-```
+```c
 typedef unsigned long size_t;
 void* my_memset(void* dest, int c, size_t n) {
 
