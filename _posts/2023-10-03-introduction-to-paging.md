@@ -39,7 +39,7 @@ Next, you should iterate through the usable entries of the memory map and get th
 
 **Note:** **Green** is a free block of memory that the memory map entails (NOT A PAGE!), and **red** is the reserved.
 
-![Untitled](/Untitled_f3bhcs.png)
+![Untitled](/v1696377720/Untitled_f3bhcs.png)
 
 Where the arrow is pointing is where the **highest usable address** is, past the arrow are **no usable entries**
 
@@ -72,13 +72,13 @@ Yes, theoretically, nothing is stopping you from writing across the arbitrary pa
 
 Here is me attempting it in my kernel:
 
-![Untitled](/Untitled_1_vmxqyl.png)
+![Untitled](/v1696377720/Untitled_1_vmxqyl.png)
 
 ## Paging
 
 The following diagram shows 4 level paging with 4KB pages:
 
-![Untitled](/Untitled_2_rkjwys.png)
+![Untitled](/v1696377720/Untitled_2_rkjwys.png)
 
 However, you might’ve already seen this diagram a million times and have been expected to follow it, but you have no clue how the diagram even works or represents.
 
