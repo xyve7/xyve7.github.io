@@ -114,9 +114,9 @@ int main() {
 
 And once I compiled and ran it, I was pleasantly surprised:
 
-![*Second test with my `memset`**](/v1696645376/Untitled_2_rjibjl.png)
+![**Second test with my `memset`**](/v1696645376/Untitled_2_rjibjl.png)
 
-*Second test with my `memset`**
+**Second test with my `memset`**
 
 Around a 10 times improvement, I was expecting around maybe a 10 second improvement, not a 10x improvement!
 
